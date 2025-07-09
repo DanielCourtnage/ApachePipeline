@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  airflow-worker:
+    volumes:
+      - "C:/Users/danie/ExchangeRatePipeline:/opt/airflow/ExchangeRatePipeline"
+  airflow-scheduler:
+    volumes:
+      - "C:/Users/danie/ExchangeRatePipeline:/opt/airflow/ExchangeRatePipeline"
+  airflow-webserver:
+    volumes:
+      - "C:/Users/danie/ExchangeRatePipeline:/opt/airflow/ExchangeRatePipeline"
