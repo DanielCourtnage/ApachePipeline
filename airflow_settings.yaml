@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  airflow-worker:
+    volumes:
+      - "C:/Users/your_name/name_of_your_python_project:/opt/airflow/name_of_your_pipeline"
+  airflow-scheduler:
+    volumes:
+      - "C:/Users/your_name/name_of_your_python_project:/opt/airflow/name_of_your_pipeline"
+  airflow-webserver:
+    volumes:
+      - "C:/Users/your_name/name_of_your_python_project:/opt/airflow/name_of_your_pipeline"
