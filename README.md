@@ -20,9 +20,9 @@ Set up instructions
 1. Create a new Python project
 2. Open up your Python/GitBash terminal
 3. $ astro dev init (This sets up almost all the folders you need)
-4. Add or edit the txt files and docker files (extra files)
-5. Add code and install required libraries
-6. Open Docker and type into terminal
+4. Add or edit the .yaml and .txt files and docker files (extra files)
+5. Create a new .py file in your dags folder and paste the Python code
+6. Open Docker and type into your Python terminal the promt below
 7. astro dev start
 8. Set up connections
 9. Trigger
