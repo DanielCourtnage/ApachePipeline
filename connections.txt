@@ -1,0 +1,18 @@
+Connection ID: frankfurter_api
+Connection Type: http
+Description: 
+Host: https://api.frankfurter.dev
+Login:
+Password:
+Port:
+Schema: 
+
+
+Connection ID: postgres_default
+Connection Type: postgres
+Description: 
+Host: "The name of your postgres container" - example "name-of-your-pipeline-f00f00-postgres-1"
+Login: postgres
+Password: postgres
+Port: 5432
+Schema:
