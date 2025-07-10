@@ -1,4 +1,4 @@
-# ApachePipeline
+# ExchangeRatePipeline
 ### ETL pipeline using Apache Airflow
 
 I have created a pipeline to extract exchange rate data every day and add it a CSV file that tracks prices over time. It's also uploaded to a Postgres database that can be queried using DBeaver. 
@@ -31,6 +31,7 @@ Set up instructions
 <br/>
 From here the data will be downloaded into a CSV file on your computer into the dags folder. If there is already a CSV file in place it will update it with a new line so you can compare rates over time. It also establishes a connection to a Postgres database, accessible by DBeaver or other platforms.  
 
+## User Guide
 To use it you simply need to open Docker Desktop and run the DAG. This will have it run every day in the background but it can also be triggered manually.
 
 # Contribution Guidelines
